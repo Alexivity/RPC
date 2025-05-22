@@ -48,13 +48,4 @@ sudo docker run --hostname consulsvr3 --name consul_node_3 -d -p 8502:8500 consu
 sudo docker exec -t consul_node_1 consul members
 ```
 
-5. 测试  
-开启16_srpc中的服务器后  
-ui http://192.168.253.131:8500/ui/dc1/services  
-ip和port http://192.168.253.131:8500/v1/agent/services  
 
-## 补充
-1. 智能指针
-2. 右值绑定
-3. *boost库
-4. *模板
